@@ -1,0 +1,276 @@
+#tittle
+{
+	text-align: center;
+	font: italic bold 40px/40px Georgia, serif;
+	color:#000099;
+}
+#startmenu
+{
+	width:1200px;
+ 	height:800px;
+	background-image:url("../image/startmenu.png");
+	margin:auto;
+	position: relative;
+
+}
+.projectile {
+  
+	background-image:url("../image/snowball.png");
+	width:60px;
+	height:60px;
+	top: 647px; 
+	left: 25px;
+	position:absolute;
+}
+#ending
+{
+	width:1200px;
+ 	height:800px;
+	background-image:url("../image/ending.png");
+	margin:auto;
+	position: relative;
+	display: none;
+}
+#background
+{
+   background-image: url("../image/background.jpg");
+   background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+#logo
+{
+    width: 100%;
+    height: 70px;
+	background-color:#3399ff;
+	cellpadding:15px;
+}
+#cannon
+{
+	width:171px;
+ 	height:120px;
+	background-image:url("../image/cannon1.png");
+	background-position: center;
+	background-color:#99ccff;
+}
+#box
+{
+	width:171px;
+ 	height:120px;
+	background-image:url("../image/rectangle.png");
+	background-position: center;
+	background-color:#99ccff;
+}
+#box1
+{
+	width:171px;
+ 	height:120px;
+	background-image:url("../image/triangle.png");
+	background-position: center;
+	background-color:#99ccff;
+}
+#pig
+{
+	width:171px;
+ 	height:120px;
+	background-image:url("../image/pig1.png");
+	background-position: center;	
+	background-color:#99ccff;
+}
+#form
+{
+	width:171px;
+ 	height:120px;
+	width:200px;
+	height:100px;
+	background-color:#99ccff;
+}
+#grid
+{
+	width:171px;
+ 	height:120px;
+ 	background-image:url("../image/grid.png");
+ 	background-position: center;	
+	background-color:#99ccff;
+}
+#save
+{
+	width:171px;
+ 	height:120px;
+ 	 background-image:url("../image/save.png");
+ 	background-position: center;	
+	background-color:#99ccff;
+}
+#reset
+{
+	width:160px;
+ 	height:120px;
+ 	background-image:url("../image/reset.png");
+ 	background-position: center;	
+	background-color:#99ccff;
+}
+#load
+{
+	width:160px;
+ 	height:120px;
+ 	background-image:url("../image/load.png");
+ 	background-position: center;	
+	background-color:#99ccff;
+}
+#box:hover{ background-color: #66b2ff;}
+#box1:hover{ background-color: #66b2ff;}
+#pig:hover{ background-color: #66b2ff;}
+#reset:hover{ background-color: #66b2ff;}
+#grid:hover{ background-color: #66b2ff;}
+#form:hover{ background-color: #66b2ff;}
+#cannon:hover{ background-color: #66b2ff;}
+#save:hover{ background-color: #66b2ff;}
+#load:hover{ background-color: #66b2ff;}
+.cannon
+{
+	background-image:url("../image/cannon.png");
+	width:160px;
+ 	height:160px;
+ 	position:absolute;
+}
+.box
+{
+	background-image:url("../image/box.png");
+	width:160px;
+ 	height:160px;
+ 	position:absolute;
+}
+.box1
+{
+	background-image:url("../image/box1.png");
+	width:160px;
+ 	height:160px;
+ 	position:absolute;
+}
+.pig
+{
+	background-image:url("../image/pig.png");
+	width:160px;
+ 	height:160px;
+ 	position:absolute;
+}
+input[type="text"]
+{
+	font: italic bold 16px/16px Georgia, serif;
+	color:#000099;
+}
+#gridmap
+{
+	background-image:url("../image/grid1.png");
+	width:1200px;
+ 	height:800px;
+	margin:auto;
+	position: relative;
+}
+.hide {
+
+	display: none;	
+}
+
+#gameboard
+{
+	width:1200px;
+ 	height:800px;
+	background-image:url("../image/snowmountain.jpg");
+	margin:auto;
+	position: relative;
+	display: none;
+}
+
+#menu
+{
+	width:1200px;
+ 	height:800px;
+	background-image:url("../image/menu.png");
+	margin:auto;
+	position: relative;
+		display: none;
+}
+
+#playbutton
+{
+	background-image:url("../image/startbutton.png");
+	width:200px;
+ 	height:100px;
+}
+#username
+{
+	background-image:url("../image/button1.png");
+		width:200px;
+ 	height:100px;
+}
+#editorbutton
+{
+	background-image:url("../image/editor.png");
+	width:200px;
+ 	height:100px;
+ 	top:65px;
+ 	left:550px;
+}
+#toolbar
+{
+	display: none;
+		background-color:white;
+	width:1200px;
+ 	height:100px;
+	margin:auto;
+}
+#levelname
+{
+	width:171px;
+ 	height:120px;
+	background-color:#99ccff;
+	font: italic bold 16px/16px Georgia, serif;
+	color:#000099;
+}
+#bulletleft
+{
+		width:171px;
+ 	height:120px;
+	background-color:#99ccff;
+	font: italic bold 16px/16px Georgia, serif;
+	color:#000099;
+}
+#angleslider
+{
+			width:171px;
+ 	height:120px;
+	background-color:#99ccff;
+	font: italic bold 16px/16px Georgia, serif;
+	color:#000099;
+}
+#powerslider
+{
+			width:171px;
+ 	height:120px;
+	background-color:#99ccff;
+	font: italic bold 16px/16px Georgia, serif;
+	color:#000099;
+}
+#loadsection
+{
+	background-color:#99ccff;
+	width:171px;
+ 	height:120px;
+}
+#textarea
+{
+	width:100px;
+	height:50px;
+	background-color:#99ccff;
+	top:20px;
+	left:50px;
+	position: relative;
+}
+#winningcondition
+{
+	font: italic bold 100px/100px Georgia, serif;
+	color:#1887AC;
+text-align:center;
+}
